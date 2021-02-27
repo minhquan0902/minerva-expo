@@ -1,0 +1,104 @@
+.navbar {
+  background-color: black;
+  height: 75rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 3rem;
+  font-size: 8rem;
+  background: none;
+  margin-top: -40rem;
+}
+.close-icon {
+  margin-left: 2rem;
+  font-size: 5rem;
+  background: none;
+  margin-top: 20rem;
+  margin-bottom: 15rem;
+  color: black;
+  padding-bottom: 2rem;
+}
+
+.nav-menu {
+  background-color: #e5e5e5;
+  width: 450px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 15px 15px 10px 10px;
+  list-style: none;
+  height: 60px;
+  padding-top: 6rem;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  font-family: "Cy";
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+.lines-and-dot {
+  padding-left: 10rem;
+  padding-top: 4rem;
+}
+
+.date {
+  color: white;
+  font-family: "Cy";
+  font-size: 5rem;
+  margin-top: -4rem;
+  margin-bottom: -0.25rem;
+  margin-left: 25rem;
+  color: red;
+}
+.date-2 {
+  color: white;
+  font-family: "Cy";
+  font-size: 5rem;
+  margin-top: -4rem;
+  margin-bottom: -0.25rem;
+  margin-left: 30rem;
+  color: red;
+}
