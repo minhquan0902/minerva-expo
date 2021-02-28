@@ -18,34 +18,34 @@ import { Row, Col } from "antd";
 const Home = () => {
   return (
     <div style={{ paddingLeft: "2rem" }}>
-      <Row gutter={[32, 16]}>
-        <Col>
-          <img src={T} alt="T" height={350} />
-          <img src={H} alt="H" height={350} />
-          <img src={I} alt="I" height={350} />
-          <img src={R} alt="R" height={350} />
-          <img src={D} alt="D" height={350} />
+      <Row>
+        <Col span={24}>
+          <img src={T} alt="T" height={340} />
+          <img src={H} alt="H" height={340} />
+          <img src={I} alt="I" height={340} />
+          <img src={R} alt="R" height={340} />
+          <img src={D} alt="D" height={340} />
         </Col>
       </Row>
       <br />
-      <Row gutter={[32, 16]}>
-        <Col>
-          <img src={Y} alt="Y" height={350} />
-          <img src={E} alt="E" height={350} />
-          <img src={A} alt="A" height={350} />
-          <img src={R} alt="R" height={350} />
+      <Row>
+        <Col span={24}>
+          <img src={Y} alt="Y" height={340} />
+          <img src={E} alt="E" height={340} />
+          <img src={A} alt="A" height={340} />
+          <img src={R} alt="R" height={340} />
           <a href="/artist-list">
             <img
               style={{ paddingLeft: "7rem", paddingBottom: "7rem" }}
               src={Enter}
               alt="Enter"
-              height={150}
+              height={120}
             />
           </a>
         </Col>
       </Row>
-      <Row gutter={[32, 16]}>
-        <Col>
+      <Row>
+        <Col span={24}>
           <a href="/about">
             <img
               style={{ paddingLeft: "9rem", paddingBottom: "8rem" }}
@@ -54,10 +54,10 @@ const Home = () => {
               height={80}
             />
           </a>
-          <img style={{ paddingLeft: "8rem" }} src={E} alt="E" height={360} />
-          <img src={X} alt="X" height={350} />
-          <img src={P} alt="P" height={350} />
-          <img src={O} alt="O" height={350} />
+          <img style={{ paddingLeft: "6rem" }} src={E} alt="E" height={360} />
+          <img src={X} alt="X" height={340} />
+          <img src={P} alt="P" height={340} />
+          <img src={O} alt="O" height={340} />
         </Col>
       </Row>
     </div>

@@ -1,17 +1,8 @@
-.navbar {
-  background-color: black;
-  height: 75rem;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .menu-bars {
   margin-left: 3rem;
   font-size: 8rem;
-  background: none;
-  margin-top: -40rem;
+
+  margin-top: 3rem;
 }
 .close-icon {
   margin-left: 2rem;
@@ -84,21 +75,11 @@ span {
   padding-top: 4rem;
 }
 
-.date {
-  color: white;
-  font-family: "Cy";
-  font-size: 5rem;
-  margin-top: -4rem;
-  margin-bottom: -0.25rem;
-  margin-left: 25rem;
-  color: red;
-}
-.date-2 {
-  color: white;
-  font-family: "Cy";
-  font-size: 5rem;
-  margin-top: -4rem;
-  margin-bottom: -0.25rem;
-  margin-left: 30rem;
-  color: red;
+@media screen and (max-width: 600px) {
+  .menu-bars {
+    font-size: 3rem;
+  }
+  .thanh-ngang {
+    width: 50;
+  }
 }
