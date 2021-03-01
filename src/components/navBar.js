@@ -33,11 +33,10 @@ function Navbar() {
         <div
           style={{
             display: "flex",
-            justifyContent: "row",
+            justifyContent: "flex-end",
 
             paddingTop: "4rem",
             paddingLeft: "4rem",
-            marginLeft: "4rem",
           }}
           className="date"
         >
