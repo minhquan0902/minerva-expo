@@ -33,9 +33,11 @@ function Navbar() {
         <div
           style={{
             display: "flex",
-            justifyContent: "flex-end",
-            backgroundColor: "black",
-            alignContent: "center",
+            justifyContent: "row",
+
+            paddingTop: "4rem",
+            paddingLeft: "4rem",
+            marginLeft: "4rem",
           }}
           className="date"
         >
@@ -47,6 +49,8 @@ function Navbar() {
               fontSize: "5rem",
               marginTop: "-9rem",
               color: "red",
+              paddingLeft: "4rem",
+              marginLeft: "4rem",
             }}
           >
             11/3
@@ -55,20 +59,21 @@ function Navbar() {
             src={thanhNgang}
             alt="ngang"
             width={580}
-            style={{ padding: "2rem", marginTop: "-13rem" }}
+            style={{
+              padding: "2rem",
+              marginTop: "-12rem",
+              marginBottom: "4rem",
+            }}
             className="thanh-ngang"
           />
           <p
             style={{
               color: "white",
               fontFamily: "Cy",
-
+              paddingRight: "7rem",
               fontSize: "5rem",
               marginTop: "-9rem",
               color: "red",
-              marginRight: "4rem",
-
-              backgroundColor: "black",
             }}
           >
             18/3
@@ -77,7 +82,7 @@ function Navbar() {
         <div
           style={{
             display: "flex",
-            justifyContent: "flex-start",
+            justifyContent: "flex-end",
             marginBottom: "-5rem",
           }}
         >
@@ -94,7 +99,10 @@ function Navbar() {
           ></img>
 
           <img
-            style={{ marginTop: "-9rem", marginLeft: "5rem" }}
+            style={{
+              marginTop: "-8rem",
+              marginRight: "-3rem",
+            }}
             src={thanhDoc}
             alt="thanh-doc"
             height={850}
@@ -109,10 +117,12 @@ function Navbar() {
                   fontSize: "3rem",
                   marginLeft: "-8rem",
 
-                  marginTop: "-3rem",
+                  marginTop: "-0.5rem",
                 }}
               >
-                MINERVA <br /> ACADEMY
+                MINERVA <br />
+                <br />
+                <br /> ACADEMY
               </p>
               <p
                 style={{
@@ -181,7 +191,7 @@ function Navbar() {
               fontFamily: "Cy",
               color: "white",
               display: "flex",
-              flexDirection: "row",
+
               fontSize: "2rem",
               marginRight: "6rem",
             }}
@@ -216,10 +226,10 @@ function Navbar() {
         <img
           src={expo}
           style={{
-            marginTop: "-60rem",
-            marginLeft: "-20rem",
+            marginTop: "-62rem",
+            marginLeft: "-23rem",
             paddingTop: "-30rem",
-            paddingBottom: "12rem",
+            paddingBottom: "14rem",
           }}
           alt="expo"
           height={1250}
@@ -229,10 +239,10 @@ function Navbar() {
           alt="the"
           height={300}
           style={{
-            marginTop: "-30rem",
+            marginTop: "-33rem",
             marginBottom: "40rem",
-            paddingBottom: "10rem",
-            marginLeft: "-38rem",
+            paddingBottom: "16rem",
+            marginLeft: "-36rem",
           }}
         ></img>
         <a href="/artist-list">
@@ -243,7 +253,9 @@ function Navbar() {
             style={{
               paddingBottom: "30rem",
               marginLeft: "-30rem",
-              paddingTop: "-3rem",
+              paddingTop: "-6rem",
+              marginTop: "-4rem",
+              marginBottom: "5rem",
             }}
           />
         </a>
